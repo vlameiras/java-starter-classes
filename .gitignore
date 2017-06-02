@@ -17,7 +17,7 @@ bin/
 dependency-reduced-pom.xml
 
 # Eclipse Project Files
-
+.recommenders/
 .classpath
 .project
 .settings/
