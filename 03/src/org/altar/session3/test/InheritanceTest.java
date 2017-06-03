@@ -9,8 +9,8 @@ public class InheritanceTest {
 		clothing.display();
 		
 		Shirt clothing2 = new Shirt(2, "Green shirt", 'C', 8.0, 'L');
+		clothing2.display();
 		clothing2.superDisplay();
-		
 		
 		Shirt newClothing = new Shirt(3, "Red shirt", 'D', 9.0, 'M');
 		Clothing newSuperClothing = newClothing;
