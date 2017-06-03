@@ -2,9 +2,10 @@ package org.altar.session3.test;
 
 public class StaticNullTest {
 	public static void main(String[] args) {
-		Person p = new Person();
-		p = null;
-		p.speak("Use the force, Luke.");
+		Person jedi = new Person();
+		jedi = null;
+		jedi.speak("Use the force, Luke.");
+		Person.speak("Greetings");
 	}
 
 }

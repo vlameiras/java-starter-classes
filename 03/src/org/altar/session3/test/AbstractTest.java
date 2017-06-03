@@ -8,5 +8,7 @@ public class AbstractTest {
 		AbstractClothing jacket = new Jacket(5, "Black jacket", 'Y', 55.0, "Zara");
 		System.out.println(jacket.getColorCode());
 		jacket.display();
+		
+		System.out.println(((Jacket)jacket).getBrand());
 	}
 }

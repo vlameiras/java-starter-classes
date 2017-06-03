@@ -5,7 +5,7 @@ public class Clothing {
 	private String description = "description required";
 	private char colorCode = 'U';
 	private double price = 0.0;
-	
+
 	public Clothing(int itemId, String description, char colorCode, double price) {
 		super();
 		this.itemId = itemId;
@@ -45,8 +45,8 @@ public class Clothing {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	
-	public void display(){
+
+	public void display() {
 		System.out.println("Item ID " + itemId);
 		System.out.println("Description " + description);
 		System.out.println("Color code " + colorCode);
