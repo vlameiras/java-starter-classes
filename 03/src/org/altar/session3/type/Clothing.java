@@ -47,9 +47,6 @@ public class Clothing {
 	}
 
 	public void display() {
-		System.out.println("Item ID " + itemId);
-		System.out.println("Description " + description);
-		System.out.println("Color code " + colorCode);
-		System.out.println("Price " + price);
+		System.out.println("This is a piece of clothing");
 	}
 }
