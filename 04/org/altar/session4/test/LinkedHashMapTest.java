@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 public class LinkedHashMapTest {
 	public static void main(String[] args) {
 		LinkedHashMap<Integer, Book> map = new LinkedHashMap<>();
+
 		map.put(1, new Book("Dune", "Frank Herbert"));
 		map.put(2, new Book("Effective Java", "Joshua Bloch"));
 		map.put(3, new Book("Brave New World", "Aldous Huxley"));
@@ -66,7 +67,7 @@ class Book {
 	}
 
 	public void display() {
-		System.out.println(this.title + " - " + this.author);
+		System.out.println(this.toString());
 	}
 
 	@Override

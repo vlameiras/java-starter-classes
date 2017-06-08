@@ -10,5 +10,6 @@ public enum EpicEnum {
 	FOUNDATION,
 	GAME_OF_THRONES,
 	WARCRAFT,
-	DIABLO;
+	DIABLO,
+	PATRULHA_PATA;
 }

@@ -14,6 +14,7 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class DateTimeExamples {
+	
 	public static void main(String[] args) {
 		// Today
 		LocalDate today = LocalDate.now();
@@ -27,7 +28,7 @@ public class DateTimeExamples {
 		System.out.printf("Year : %d | Month : %d | day : %d \t %n", today.getYear(), today.getMonthValue(), today.getDayOfMonth());
 		
 		// Create LocalDate from int values
-		LocalDate someDateOf = LocalDate.of(2017, 01, 20);
+		LocalDate someDateOf = LocalDate.of(2017, 05, 20);
 		System.out.println("Some LocalDate -> " + someDateOf);
 		 
 		// Parse LocalDate from String
@@ -85,7 +86,7 @@ public class DateTimeExamples {
 		System.out.println("LocalDateTime formatted with ISO -> " + formattedNow.format(DateTimeFormatter.ISO_DATE_TIME));
 		
 		// Custom DateTimeFormatter
-		DateTimeFormatter customFormat = DateTimeFormatter.ofPattern("YYYY m d HH:mm");
+		DateTimeFormatter customFormat = DateTimeFormatter.ofPattern("YYYY M d HH:mm");
 		System.out.println("LocalDateTime with custom format -> " + formattedNow.format(customFormat));
 	}
 }
