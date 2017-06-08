@@ -8,6 +8,6 @@ public class GenericAvoidsClassCastExceptionTest {
 		List<String> myList = new ArrayList<String>();
 		myList.add("Hello, class");
 		//myList.add(new Integer(1));
-
+		//Error
 	}
 }
