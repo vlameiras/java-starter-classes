@@ -27,6 +27,7 @@ public class GenericsWildcardTest {
 		// Extends Wildcard - Works for any instance of A or subclass of A
 		// But you still can't insert because you don't know if the type would
 		// be A, B or C
+		
 		/*
 		 * List<A> listA = new ArrayList<A>(); 
 		 * processElements(listA);
@@ -49,8 +50,7 @@ public class GenericsWildcardTest {
 		 * insertElements(listObject);
 		 * 
 		 * Object object = listSuperA.get(0); 
-		 * A objGeneric = listSuperA.get(0);
-		 * //May be a super class of A objGeneric.sayName();
+		 * A objGeneric = listSuperA.get(0); //May not be A
 		 */
 
 	}
