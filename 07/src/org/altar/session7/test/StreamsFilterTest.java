@@ -24,7 +24,7 @@ public class StreamsFilterTest {
 		filter(languages, (str) -> str.length() > 4);
 
 		Predicate<String> startsWithJ = (n) -> n.startsWith("J");
-		Predicate<String> fourLetterLong = (n) -> n.length() == 5;
+		Predicate<String> fourLetterLong = (n) -> n.length() == 4;
 
 		languages.stream().filter(startsWithJ.and(fourLetterLong))
 				.forEach((n) -> System.out.println("Languages which start with J and have 4 letters " + n));

@@ -16,6 +16,7 @@ public class LambdasTest {
 		newList.forEach(n -> System.out.println(n));
 		
 		List newList2 = Arrays.asList("Javascript", "Scala", "Rust");	
+		
 		// Java 8 method reference
 		newList.forEach(System.out::println);
 	}
