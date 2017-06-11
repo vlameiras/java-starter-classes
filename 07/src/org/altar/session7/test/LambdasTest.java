@@ -19,5 +19,6 @@ public class LambdasTest {
 		
 		// Java 8 method reference
 		newList.forEach(System.out::println);
+		
 	}
 }

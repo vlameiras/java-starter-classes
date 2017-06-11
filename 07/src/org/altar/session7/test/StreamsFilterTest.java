@@ -29,6 +29,12 @@ public class StreamsFilterTest {
 		languages.stream().filter(startsWithJ.and(fourLetterLong))
 				.forEach((n) -> System.out.println("Languages which start with J and have 4 letters " + n));
 
+		
+		// Example of Map, average and isPresent
+		Arrays.stream(new int[] {1, 2, 3})
+	    .map(n -> 2 * n + 1)
+	    .average()
+	    .ifPresent(System.out::println); 
 	}
 
 	public static void filter(List<String> names, Predicate<String> condition) {
